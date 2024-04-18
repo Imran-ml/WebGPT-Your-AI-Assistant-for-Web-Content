@@ -11,7 +11,7 @@ from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain.chains.retrieval import create_retrieval_chain
 
 load_dotenv()
-
+print("hello")
 def get_vectorstore_from_url(url):
     loader = WebBaseLoader(url)
     document = loader.load()
